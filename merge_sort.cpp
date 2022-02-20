@@ -42,7 +42,7 @@ void merge(int l,int m,int r)
 
     if(i==n1)
     {
-        while(j<n2)
+        while(j<n2)//added a condition
         {
             v[index]=right[j];
             j++;
